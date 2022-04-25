@@ -11,16 +11,8 @@
 /* ************************************************************************** */
 
 #include <unistd.h>
-// #include <stdio.h> //printf
 
-// void	ft_putchar(char c)
-// {
-// 	write(1, &c, 1);
-// }
-
-int main(void)
+void	ft_putchar(char c)
 {
-	write(1, "May the force be# with you!", 26);
+	write(1, &c, 1);
 }
-
- //
